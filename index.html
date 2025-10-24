@@ -1,82 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sam Simon Painters Melbourne</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sam Simon Painters Melbourne</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+    }
+    header, main, footer {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    header {
+      text-align: center;
+      background-color: #f9f9f9;
+      padding: 40px 20px;
+    }
+    header img {
+      max-width: 200px;
+      height: auto;
+    }
+    h1, h2 {
+      color: #1a1a1a;
+    }
+    a {
+      color: #0073e6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .map-container {
+      margin-top: 20px;
+      width: 100%;
+      height: 450px;
+      border: 1px solid #ccc;
+      overflow: hidden;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    .address {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      background: #f1f1f1;
+      margin-top: 40px;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #0073e6;
+      color: #fff;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+    .button:hover {
+      background-color: #005bb5;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <img src="https://samsimonpainters.com.au/wp-content/uploads/2024/08/SS-Painters-white-400.png" alt="Sam Simon Painters Logo" style="max-width: 200px; height: auto;">
-        <h1>Trusted Local Painters Melbourne for Quality and Lasting Results</h1>
-        <p>Welcome to Sam Simon Painters Melbourne</p>
-        <p>We are known as one of the best painters in Melbourne, trusted for delivering exceptional results every time. Sam Simon Painters is a local Melbourne-based painting company offering reliable interior painting and exterior painting services for homes and businesses. Whether you need residential painting services, commercial painting services, or roof restoration, our local painters in Melbourne ensure every project is completed on time and with precision.</p>
-        <a href="https://samsimonpainters.com.au/get-a-free-painting-quote/">GET A FREE QUOTE NOW</a>
-    </header>
+  <header>
+    <img src="https://samsimonpainters.com.au/wp-content/uploads/2024/08/SS-Painters-white-400.png" alt="Sam Simon Painters Logo">
+    <h1>Trusted Local Painters Melbourne for Quality and Lasting Results</h1>
+    <p>Welcome to Sam Simon Painters Melbourne</p>
+    <p>We are known as one of the best painters in Melbourne, trusted for delivering exceptional results every time. Sam Simon Painters is a local Melbourne-based painting company offering reliable interior painting and exterior painting services for homes and businesses. Whether you need residential painting services, commercial painting services, or roof restoration, our local painters in Melbourne ensure every project is completed on time and with precision.</p>
+    <p><a href="https://samsimonpainters.com.au/get-a-free-painting-quote/" class="button">GET A FREE QUOTE NOW</a></p>
+  </header>
 
-    <main>
-        <section>
-            <h2>Our Painting Services in Melbourne</h2>
-            <p>Sam Simon Painters Melbourne provides complete painting services for homes, apartments, offices, and commercial spaces across Melbourne VIC. Our licensed and certified team offers reliable interior and exterior painting, roof restoration, and decorative finishes tailored to deliver beautiful, long-lasting results that suit your style and space.</p>
-            <ul>
-                <li><strong>Residential Painting:</strong> Transform your property with full home repaints, color refreshes, and durable finishes.</li>
-                <li><strong>Interior Painting:</strong> Clean, professional finishes for walls, ceilings, doors, and trims.</li>
-                <li><strong>Commercial Painting:</strong> Efficient service for offices, shops, warehouses, and strata complexes.</li>
-                <li><strong>Exterior Painting:</strong> UV-resistant and weatherproof coatings for long-lasting protection.</li>
-                <li><strong>Roof Painting and Restoration:</strong> Extend your roof’s lifespan with high-performance coatings.</li>
-                <li><strong>Colour Consulting:</strong> Expert guidance on color coordination and finishes.</li>
-                <li><strong>Spray Painting:</strong> Smooth, flawless finishes for residential and commercial spaces.</li>
-                <li><strong>Decorative Finishes and Plaster Repairs:</strong> Add character and elegance to your interiors.</li>
-                <li><strong>Fence Painting:</strong> Protect and enhance your outdoor spaces with UV-resistant paints.</li>
-            </ul>
-        </section>
+  <main>
+    <section>
+      <h2>Our Painting Services in Melbourne</h2>
+      <ul>
+        <li><strong>Residential Painting:</strong> Transform your property with full home repaints, color refreshes, and durable finishes.</li>
+        <li><strong>Interior Painting:</strong> Clean, professional finishes for walls, ceilings, doors, and trims.</li>
+        <li><strong>Commercial Painting:</strong> Efficient service for offices, shops, warehouses, and strata complexes.</li>
+        <li><strong>Exterior Painting:</strong> UV-resistant and weatherproof coatings for long-lasting protection.</li>
+        <li><strong>Roof Painting and Restoration:</strong> Extend your roof’s lifespan with high-performance coatings.</li>
+        <li><strong>Colour Consulting:</strong> Expert guidance on color coordination and finishes.</li>
+        <li><strong>Spray Painting:</strong> Smooth, flawless finishes for residential and commercial spaces.</li>
+        <li><strong>Decorative Finishes and Plaster Repairs:</strong> Add character and elegance to your interiors.</li>
+        <li><strong>Fence Painting:</strong> Protect and enhance your outdoor spaces with UV-resistant paints.</li>
+      </ul>
+    </section>
 
-        <section>
-            <h2>Why Choose Sam Simon Painters in Melbourne</h2>
-            <p>For over a decade, Sam Simon Painters Melbourne has helped homes and businesses transform their interiors and exteriors with precision, care, and professionalism. As a local family-owned painting company, we are dedicated to craftsmanship, customer care, and long-lasting finishes.</p>
-            <ul>
-                <li>Licensed and certified painters with qualifications in carpentry and construction.</li>
-                <li>Use of premium Australian-approved paints and materials.</li>
-                <li>Eco-friendly and low-VOC paint options for healthier indoor air quality.</li>
-                <li>Strict safety protocols and compliance with Australian Standards.</li>
-                <li>Transparent pricing and warranties for every project.</li>
-            </ul>
-        </section>
+    <section>
+      <h2>Why Choose Sam Simon Painters in Melbourne</h2>
+      <ul>
+        <li>Licensed and certified painters with qualifications in carpentry and construction.</li>
+        <li>Use of premium Australian-approved paints and materials.</li>
+        <li>Eco-friendly and low-VOC paint options for healthier indoor air quality.</li>
+        <li>Strict safety protocols and compliance with Australian Standards.</li>
+        <li>Transparent pricing and warranties for every project.</li>
+      </ul>
+    </section>
 
-        <section>
-            <h2>Our Painting Process</h2>
-            <ol>
-                <li><strong>Free Quote and Consultation:</strong> Transparent pricing and expert advice.</li>
-                <li><strong>Surface Preparation and Material Selection:</strong> Cleaning, sanding, and premium material selection.</li>
-                <li><strong>Professional Painting and Detailing:</strong> Smooth, even coats with attention to detail.</li>
-                <li><strong>Final Inspection and Clean-Up:</strong> Thorough inspection and clean-up for 100% satisfaction.</li>
-            </ol>
-        </section>
+    <section>
+      <h2>Contact Us</h2>
+      <p><strong>Call:</strong> <a href="tel:+61422013132">+61 422 013 132</a></p>
+      <p><strong>Email:</strong> <a href="mailto:sam@samsimonpainters.com.au">sam@samsimonpainters.com.au</a></p>
+      <p><strong>Operating Hours:</strong></p>
+      <ul>
+        <li>Mon to Fri: 07:00 – 20:00</li>
+        <li>Sat: 08:00 – 20:00</li>
+        <li>Sun: CLOSED</li>
+      </ul>
+      <p><strong>Website:</strong> <a href="https://samsimonpainters.com.au/">https://samsimonpainters.com.au/</a></p>
+    </section>
 
-        <section>
-            <h2>Contact Us</h2>
-            <p>For professional interior and exterior painting services across Melbourne and nearby suburbs, trust Sam Simon Painters Melbourne to deliver lasting results that elevate your home or business.</p>
-            <p><strong>Call:</strong> <a href="tel:+61422013132">+61 422 013 132</a></p>
-            <p><strong>Email:</strong> <a href="mailto:sam@samsimonpainters.com.au">sam@samsimonpainters.com.au</a></p>
-            <p><strong>Operating Hours:</strong></p>
-            <ul>
-                <li>Mon to Fri: 07:00 – 20:00</li>
-                <li>Sat: 08:00 – 20:00</li>
-                <li>Sun: CLOSED</li>
-            </ul>
-            <p><strong>Website:</strong> <a href="https://samsimonpainters.com.au/">https://samsimonpainters.com.au/</a></p>
-        </section>
+    <section>
+      <h2>Location</h2>
+      <p>Find us at:</p>
+      <p class="address">Unit 2, Braybrook, VIC 3019</p>
+      <p><a href="https://www.google.com/maps?q=-37.81538562857309,144.93470898192777" target="_blank" rel="noopener noreferrer">📍 Open in Google Maps</a></p>
 
-        <section>
-            <h2>Gallery</h2>
-            <p>Take a look at some of our recent projects:</p>
-            <img src="https://samsimonpainters.com.au/wp-content/uploads/2025/09/Interior-House-Painting-in-Melbourne-%E2%80%93-Sam-Simon-Painters.png" alt="Interior House Painting in Melbourne" style="max-width: 100%; height: auto;">
-            <img src="https://samsimonpainters.com.au/wp-content/uploads/2025/02/05-02-Braybrook-2b.jpg" alt="Braybrook Painting Project" style="max-width: 100%; height: auto;">
-        </section>
-    </main>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps?q=-37.81538562857309,144.93470898192777&z=14&output=embed"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </section>
+  </main>
 
-    <footer>
-        <p>&copy; 2025 Sam Simon Painters Melbourne. All rights reserved.</p>
-    </footer>
+  <footer>
+    <p>&copy; 2025 Sam Simon Painters Melbourne. All rights reserved.</p>
+  </footer>
 </body>
 </html>
